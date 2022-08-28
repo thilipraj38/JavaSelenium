@@ -23,6 +23,10 @@ public class Robot1 {
 	    r.keyRelease(KeyEvent.VK_E);
 	    r.keyPress(KeyEvent.VK_L);
 	    r.keyRelease(KeyEvent.VK_L);
+	    r.keyPress(KeyEvent.VK_L);
+	    r.keyRelease(KeyEvent.VK_L);
+	    r.keyPress(KeyEvent.VK_S);
+	    r.keyRelease(KeyEvent.VK_S);
 	    Thread.sleep(2000);
 	    r.keyPress(KeyEvent.VK_CONTROL);
 	    r.keyPress(KeyEvent.VK_A);
