@@ -19,6 +19,7 @@ public class Robot1 {
 	    Robot r = new Robot();
 	    r.keyPress(KeyEvent.VK_V);
 	    r.keyRelease(KeyEvent.VK_V);
+	    Thread.sleep(1000);
 	    r.keyPress(KeyEvent.VK_E);
 	    r.keyRelease(KeyEvent.VK_E);
 	    r.keyPress(KeyEvent.VK_L);
